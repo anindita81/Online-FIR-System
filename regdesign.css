@@ -97,7 +97,6 @@
 .hero{
 	width: 100%;
 	height: 100vh;
-	display: flex;
 	background-color: #ADD8E6;
 	/*align-items: center;
 	justify-content: center;*/
@@ -141,15 +140,7 @@ inout:focus~label{
 	top: -35px;
 	font-size: 14px;
 }
-label{
-	height: 100%;
-	position: absolute;
-	left: 0;
-	top: 0;
-	padding: 10px;
-	color: #000;
-	cursor: text;
-}
+
 button{
 	width: 85%;
 	padding: 10px 30px;
@@ -161,4 +152,14 @@ button{
 	outline: none;
 	border-radius: 30px;
 	align-self: center;
+}
+.form-label{
+	margin-bottom: 10px;
+}
+.form-container{
+	display: flex;
+}
+.form-column{
+	width: 33%;
+	margin: 10px;
 }
